@@ -1,16 +1,13 @@
 cask "rcp-light" do
-  version "1.4.0"
-  sha256 "434b7b9087184d9983350b9c515cfb4a98ad979612ae3b1f24b1c5c336e956a4"
+  version "1.4.1"
+  sha256 "800ba3ba482662e235af6e8a80c08547205e3260f1da206fa6909d44c3f904c2"
 
   url "https://github.com/ilham-fauzi/RCP-Light/releases/download/v#{version}/rcp-light-v#{version}.zip"
   name "RCP Light"
-  desc "High-performance, ultra-lightweight OpenVPN client for macOS"
+  desc "Lightweight VPN client for RCP Network"
   homepage "https://github.com/ilham-fauzi/RCP-Light"
 
   app "RCP Light.app"
 
-  zap trash: [
-    "~/.rcp-network",
-    "~/Library/Preferences/com.rcp.network.light.plist",
-  ]
+  zap trash: "~/.rcp-network"
 end
