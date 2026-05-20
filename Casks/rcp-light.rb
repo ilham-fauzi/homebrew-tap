@@ -1,6 +1,6 @@
 cask "rcp-light" do
-  version "1.4.1"
-  sha256 "800ba3ba482662e235af6e8a80c08547205e3260f1da206fa6909d44c3f904c2"
+  version "1.4.2"
+  sha256 "8c478a89ab2533498b6ba75eb05ab93275e7ddf7f49b9f8c9ec16bf6205dfe72"
 
   url "https://github.com/ilham-fauzi/RCP-Light/releases/download/v#{version}/rcp-light-v#{version}.zip"
   name "RCP Light"
