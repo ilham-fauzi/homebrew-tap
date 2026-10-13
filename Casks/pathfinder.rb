@@ -7,7 +7,7 @@ cask "pathfinder" do
   desc "Video downloader for macOS with a built-in browser and player"
   homepage "https://github.com/ilham-fauzi/pathfinder"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Pathfinder.app"
 
