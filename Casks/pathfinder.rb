@@ -1,6 +1,6 @@
 cask "pathfinder" do
-  version "0.2.0"
-  sha256 "44ae2eeed04a57feae4a9a265cc4e77ab1fc40f4e53414a5ac600c17632a1638"
+  version "0.2.1"
+  sha256 "9f66091f900672395207c2992fd9f44007c3eb652c41c8e92824329408a9372c"
 
   url "https://github.com/ilham-fauzi/pathfinder/releases/download/v#{version}/Pathfinder-#{version}.zip"
   name "Pathfinder"
